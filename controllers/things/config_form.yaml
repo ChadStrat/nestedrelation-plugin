@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Thing
+
+# Model Form Field configuration
+form: $/radiantweb/nestedrelation/models/thing/fields.yaml
+
+# Model Class name
+modelClass: Radiantweb\NestedRelation\Models\Thing
+
+# Default redirect location
+defaultRedirect: radiantweb/nestedrelation/things
+
+# Create page
+create:
+    title: Create Thing
+    redirect: radiantweb/nestedrelation/things/update/:id
+    redirectClose: radiantweb/nestedrelation/things
+
+# Update page
+update:
+    title: Edit Thing
+    redirect: radiantweb/nestedrelation/things
+    redirectClose: radiantweb/nestedrelation/things
+
+# Preview page
+preview:
+    title: Preview Thing

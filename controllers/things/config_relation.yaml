@@ -1,0 +1,23 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+stuff:
+    label: Stuff
+    emptyMessage: form has no Stuff
+    modelClass: Radiantweb\NestedRelation\Models\Stuff
+    view:
+      list: $/radiantweb/nestedrelation/models/stuff/columns.yaml
+      form: $/radiantweb/nestedrelation/models/stuff/fields.yaml
+    manage:
+      form: $/radiantweb/nestedrelation/models/stuff/fields.yaml
+
+morestuff:
+    label: More Stuff
+    emptyMessage: form has no More Stuff
+    modelClass: Radiantweb\NestedRelation\Models\MoreStuff
+    view:
+      list: $/radiantweb/nestedrelation/models/morestuff/columns.yaml
+      form: $/radiantweb/nestedrelation/models/morestuff/fields.yaml
+    manage:
+      form: $/radiantweb/nestedrelation/models/morestuff/fields.yaml

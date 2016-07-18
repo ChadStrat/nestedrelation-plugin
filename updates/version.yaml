@@ -1,0 +1,5 @@
+1.0.1: 
+  - First version of NestedRelation
+  - create_things_table.php
+  - create_stuffs_table.php
+  - create_more_stuffs_table.php

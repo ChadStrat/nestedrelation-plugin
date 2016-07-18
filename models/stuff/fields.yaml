@@ -1,0 +1,10 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Stuff Name
+    morestuff:
+        label: stuff
+        type: showmorestuff
