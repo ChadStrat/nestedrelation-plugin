@@ -28,7 +28,8 @@ class Thing extends Model
      */
     public $hasOne = [];
     public $hasMany = [
-        'stuff' => ['Radiantweb\NestedRelation\Models\Stuff']
+        'stuff' => ['Radiantweb\NestedRelation\Models\Stuff'],
+        'morestuff' => ['Radiantweb\NestedRelation\Models\MoreStuff']
     ];
     public $belongsTo = [];
     public $belongsToMany = [];
